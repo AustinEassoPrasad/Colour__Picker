@@ -1,0 +1,95 @@
+* {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: aquamarine;
+}
+h1 {
+    position: absolute;
+    bottom: 500px;
+    color: black;
+
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+#red {
+    background-color: red;
+    width: 900px;
+    height: 400px;
+    border-radius: 400px 400px 0 0;
+    position: absolute;
+    z-index: 1;
+}
+
+#orange {
+    background-color: orange;
+    width: 800px;
+    height: 350px;
+    border-radius: 350px 350px 0 0;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+}
+
+#yellow {
+
+    background-color: yellow;
+    width: 700px;
+    height: 300px;
+    border-radius: 300px 300px 0 0;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+}
+
+#green {
+    background-color: limegreen;
+    width: 600px;
+    height: 250px;
+    border-radius: 250px 250px 0 0;
+    position: absolute;
+    z-index: 4;
+    top: 150px;
+}
+
+#blue {
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    border-radius: 200px 200px 0 0;
+    position: absolute;
+    z-index: 5;
+    top: 200px;
+}
+
+#indigo {
+    background-color: indigo;
+    width: 400px;
+    height: 150px;
+    border-radius: 150px 150px 0 0;
+    position: absolute;
+    z-index: 6;
+    top: 250px;
+}
+
+#violet {
+    background-color: violet;
+    width: 300px;
+    height: 100px;
+    border-radius: 100px 100px 0 0;
+    position: absolute;
+    z-index: 7;
+    top: 300px;
+}
